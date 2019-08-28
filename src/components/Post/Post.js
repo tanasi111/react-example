@@ -1,14 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Post extends Component {
+const post = (props) => (
+    <article>
+        <h1>{props.title}</h1>
+    </article>
+);
 
-    render() {
-
-        return (
-            <div>Post</div>
-        );
-    }
-
-}
-
-export default Post;
+export default post;

@@ -27,7 +27,9 @@ class Blog extends Component {
         })
 
         return (
-            <div className="posts">{posts}</div>
+            <div>
+                <div className="posts">{posts}</div>
+            </div>
         );
     }
 

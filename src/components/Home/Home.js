@@ -1,12 +1,12 @@
 import React from 'react';
 
-const person = (props) => {
+const home = (props) => {
     return (
         <div>
             <h1>react app</h1>
-            <p>My name is {props.name}</p>
+            <p>My name is Ivan</p>
         </div>
     );
 };
 
-export default person;
+export default home;
